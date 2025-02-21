@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261C9E6F2D68DE600016D62C /* PowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C9E6E2D68DE600016D62C /* PowerViewModel.swift */; };
 		266C42672D68DBE800946270 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266C425F2D68DBE800946270 /* Preview Assets.xcassets */; };
 		266C42682D68DBE800946270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266C42632D68DBE800946270 /* Assets.xcassets */; };
 		266C42692D68DBE800946270 /* MVVMAndFreeformInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C42642D68DBE800946270 /* MVVMAndFreeformInputApp.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		261C9E6E2D68DE600016D62C /* PowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerViewModel.swift; sourceTree = "<group>"; };
 		266C423D2D68D6FC00946270 /* MVVMAndFreeformInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMAndFreeformInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		266C425F2D68DBE800946270 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		266C42632D68DBE800946270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		266C42612D68DBE800946270 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				261C9E6E2D68DE600016D62C /* PowerViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261C9E6F2D68DE600016D62C /* PowerViewModel.swift in Sources */,
 				266C42692D68DBE800946270 /* MVVMAndFreeformInputApp.swift in Sources */,
 				266C426E2D68DD8100946270 /* Power.swift in Sources */,
 				266C426A2D68DBE800946270 /* PowerView.swift in Sources */,
