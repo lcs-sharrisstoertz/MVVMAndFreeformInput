@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		261C9E6F2D68DE600016D62C /* PowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C9E6E2D68DE600016D62C /* PowerViewModel.swift */; };
-		266C42672D68DBE800946270 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266C425F2D68DBE800946270 /* Preview Assets.xcassets */; };
+		261C9E752D68E5ED0016D62C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261C9E732D68E5ED0016D62C /* Preview Assets.xcassets */; };
 		266C42682D68DBE800946270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266C42632D68DBE800946270 /* Assets.xcassets */; };
 		266C42692D68DBE800946270 /* MVVMAndFreeformInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C42642D68DBE800946270 /* MVVMAndFreeformInputApp.swift */; };
 		266C426A2D68DBE800946270 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C42652D68DBE800946270 /* PowerView.swift */; };
@@ -17,8 +17,8 @@
 
 /* Begin PBXFileReference section */
 		261C9E6E2D68DE600016D62C /* PowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerViewModel.swift; sourceTree = "<group>"; };
+		261C9E732D68E5ED0016D62C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		266C423D2D68D6FC00946270 /* MVVMAndFreeformInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMAndFreeformInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		266C425F2D68DBE800946270 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		266C42632D68DBE800946270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		266C42642D68DBE800946270 /* MVVMAndFreeformInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAndFreeformInputApp.swift; sourceTree = "<group>"; };
 		266C42652D68DBE800946270 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
@@ -36,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		261C9E742D68E5ED0016D62C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				261C9E732D68E5ED0016D62C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		266C42342D68D6FC00946270 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +68,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		266C42602D68DBE800946270 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				266C425F2D68DBE800946270 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		266C42612D68DBE800946270 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				266C42652D68DBE800946270 /* PowerView.swift */,
-				266C42602D68DBE800946270 /* Preview Content */,
+				261C9E742D68E5ED0016D62C /* Preview Content */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,7 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				266C42672D68DBE800946270 /* Preview Assets.xcassets in Resources */,
+				261C9E752D68E5ED0016D62C /* Preview Assets.xcassets in Resources */,
 				266C42682D68DBE800946270 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +306,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MVVMAndFreeformInput/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4UG443984D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -335,7 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MVVMAndFreeformInput/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 4UG443984D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
