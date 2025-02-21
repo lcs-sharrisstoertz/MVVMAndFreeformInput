@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		266C42672D68DBE800946270 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266C425F2D68DBE800946270 /* Preview Assets.xcassets */; };
+		266C42682D68DBE800946270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266C42632D68DBE800946270 /* Assets.xcassets */; };
+		266C42692D68DBE800946270 /* MVVMAndFreeformInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C42642D68DBE800946270 /* MVVMAndFreeformInputApp.swift */; };
+		266C426A2D68DBE800946270 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C42652D68DBE800946270 /* PowerView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		266C423D2D68D6FC00946270 /* MVVMAndFreeformInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMAndFreeformInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		266C425F2D68DBE800946270 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		266C42632D68DBE800946270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		266C42642D68DBE800946270 /* MVVMAndFreeformInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAndFreeformInputApp.swift; sourceTree = "<group>"; };
+		266C42652D68DBE800946270 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		266C423F2D68D6FC00946270 /* MVVMAndFreeformInput */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MVVMAndFreeformInput;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		266C423A2D68D6FC00946270 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		266C42342D68D6FC00946270 = {
 			isa = PBXGroup;
 			children = (
-				266C423F2D68D6FC00946270 /* MVVMAndFreeformInput */,
+				266C42662D68DBE800946270 /* MVVMAndFreeformInput */,
 				266C423E2D68D6FC00946270 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,49 @@
 				266C423D2D68D6FC00946270 /* MVVMAndFreeformInput.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		266C425E2D68DBE800946270 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		266C42602D68DBE800946270 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				266C425F2D68DBE800946270 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		266C42612D68DBE800946270 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		266C42622D68DBE800946270 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				266C42652D68DBE800946270 /* PowerView.swift */,
+				266C42602D68DBE800946270 /* Preview Content */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		266C42662D68DBE800946270 /* MVVMAndFreeformInput */ = {
+			isa = PBXGroup;
+			children = (
+				266C42642D68DBE800946270 /* MVVMAndFreeformInputApp.swift */,
+				266C425E2D68DBE800946270 /* Model */,
+				266C42612D68DBE800946270 /* ViewModels */,
+				266C42622D68DBE800946270 /* Views */,
+				266C42632D68DBE800946270 /* Assets.xcassets */,
+			);
+			path = MVVMAndFreeformInput;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +105,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				266C423F2D68D6FC00946270 /* MVVMAndFreeformInput */,
 			);
 			name = MVVMAndFreeformInput;
 			packageProductDependencies = (
@@ -109,6 +152,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266C42672D68DBE800946270 /* Preview Assets.xcassets in Resources */,
+				266C42682D68DBE800946270 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266C42692D68DBE800946270 /* MVVMAndFreeformInputApp.swift in Sources */,
+				266C426A2D68DBE800946270 /* PowerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
