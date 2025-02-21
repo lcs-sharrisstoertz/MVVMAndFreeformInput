@@ -11,6 +11,7 @@
 		266C42682D68DBE800946270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266C42632D68DBE800946270 /* Assets.xcassets */; };
 		266C42692D68DBE800946270 /* MVVMAndFreeformInputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C42642D68DBE800946270 /* MVVMAndFreeformInputApp.swift */; };
 		266C426A2D68DBE800946270 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C42652D68DBE800946270 /* PowerView.swift */; };
+		266C426E2D68DD8100946270 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266C426D2D68DD8100946270 /* Power.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		266C42632D68DBE800946270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		266C42642D68DBE800946270 /* MVVMAndFreeformInputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAndFreeformInputApp.swift; sourceTree = "<group>"; };
 		266C42652D68DBE800946270 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
+		266C426D2D68DD8100946270 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		266C425E2D68DBE800946270 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				266C426D2D68DD8100946270 /* Power.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				266C42692D68DBE800946270 /* MVVMAndFreeformInputApp.swift in Sources */,
+				266C426E2D68DD8100946270 /* Power.swift in Sources */,
 				266C426A2D68DBE800946270 /* PowerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
